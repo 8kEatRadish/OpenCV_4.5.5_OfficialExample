@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/build/intermediates/res/merged/debug/drawable_icon.png.flat",
+        "source": "/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/build/intermediates/res/merged/debug/layout_face_detect_surface_view.xml.flat",
+        "source": "/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/res/layout/face_detect_surface_view.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/build/intermediates/res/merged/debug/raw_lbpcascade_frontalface.xml.flat",
+        "source": "/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/res/raw/lbpcascade_frontalface.xml"
+    }
+]

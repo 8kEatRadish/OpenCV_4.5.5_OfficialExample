@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/jni/CMakeLists.txt",
+    "/Users/mac/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/mac/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/Users/mac/Desktop/OpenCV-android-sdk/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/Users/mac/Desktop/OpenCV-android-sdk/sdk/native/jni/OpenCVConfig.cmake",
+    "/Users/mac/Desktop/OpenCV-android-sdk/sdk/native/jni/abi-x86/OpenCVConfig.cmake",
+    "/Users/mac/Desktop/OpenCV-android-sdk/sdk/native/jni/abi-x86/OpenCVModules.cmake",
+    "/Users/mac/Desktop/OpenCV-android-sdk/sdk/native/jni/abi-x86/OpenCVModules-release.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/mac/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/mac/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "mixed_sample-Debug-x86": {
+      "artifactName": "mixed_sample",
+      "buildCommand": "/Users/mac/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/.cxx/cmake/debug/x86\" mixed_sample",
+      "abi": "x86",
+      "output": "/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/build/intermediates/cmake/debug/obj/x86/libmixed_sample.so",
+      "runtimeFiles": [
+        "/Users/mac/Desktop/OpenCV-android-sdk/sdk/native/libs/x86/libopencv_java4.so"
+      ]
+    }
+  }
+}

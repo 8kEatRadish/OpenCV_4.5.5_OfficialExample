@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.opencv.samples.tutorial3"
+4    android:versionCode="301"
+5    android:versionName="3.01" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml
+10
+11    <supports-screens
+11-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:21:5-25:51
+12        android:anyDensity="true"
+12-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:25:23-48
+13        android:largeScreens="true"
+13-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:24:23-50
+14        android:normalScreens="true"
+14-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:23:23-51
+15        android:resizeable="true"
+15-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:21:23-48
+16        android:smallScreens="true" />
+16-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:22:23-50
+17
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:27:5-64
+18-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:27:22-62
+19
+20    <uses-feature
+20-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:29:5-84
+21        android:name="android.hardware.camera"
+21-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:29:19-57
+22        android:required="false" />
+22-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:29:58-82
+23    <uses-feature
+23-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:30:5-94
+24        android:name="android.hardware.camera.autofocus"
+24-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:30:19-67
+25        android:required="false" />
+25-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:30:68-92
+26    <uses-feature
+26-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:31:5-90
+27        android:name="android.hardware.camera.front"
+27-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:31:19-63
+28        android:required="false" />
+28-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:31:64-88
+29    <uses-feature
+29-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:32:5-100
+30        android:name="android.hardware.camera.front.autofocus"
+30-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:32:19-73
+31        android:required="false" />
+31-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:32:74-98
+32
+33    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+33-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:33:5-81
+33-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:33:22-78
+34
+35    <application
+35-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:6:5-19:19
+36        android:debuggable="true"
+37        android:icon="@drawable/icon"
+37-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:8:9-38
+38        android:label="@string/app_name"
+38-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:7:9-41
+39        android:testOnly="true" >
+40        <activity
+40-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:10:9-18:20
+41            android:name="org.opencv.samples.tutorial3.Tutorial3Activity"
+41-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:10:19-51
+42            android:configChanges="keyboardHidden|orientation"
+42-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:13:19-69
+43            android:label="@string/app_name"
+43-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:11:19-51
+44            android:screenOrientation="landscape" >
+44-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:12:19-56
+45            <intent-filter>
+45-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:14:13-17:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:15:17-69
+46-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:15:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:16:17-77
+48-->/Users/mac/Desktop/OpenCV-android-sdk/samples/tutorial-3-cameracontrol/AndroidManifest.xml:16:27-74
+49            </intent-filter>
+50        </activity>
+51    </application>
+52
+53</manifest>

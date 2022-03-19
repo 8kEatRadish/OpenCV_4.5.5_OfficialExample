@@ -1,0 +1,55 @@
+{
+  "stringTable": {
+    "0": "/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android21 --gcc-toolchain=/Users/mac/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/mac/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Ddetection_based_tracker_EXPORTS -I/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/jni -isystem /Users/mac/Desktop/OpenCV-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/jni/CMakeLists.txt",
+    "/Users/mac/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/mac/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/Users/mac/Desktop/OpenCV-android-sdk/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/Users/mac/Desktop/OpenCV-android-sdk/sdk/native/jni/OpenCVConfig.cmake",
+    "/Users/mac/Desktop/OpenCV-android-sdk/sdk/native/jni/abi-x86/OpenCVConfig.cmake",
+    "/Users/mac/Desktop/OpenCV-android-sdk/sdk/native/jni/abi-x86/OpenCVModules.cmake",
+    "/Users/mac/Desktop/OpenCV-android-sdk/sdk/native/jni/abi-x86/OpenCVModules-release.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/mac/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/mac/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "detection_based_tracker-Debug-x86": {
+      "buildCommand": "/Users/mac/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/.cxx/cmake/debug/x86\" detection_based_tracker",
+      "buildType": "debug",
+      "toolchain": "2826399150",
+      "abi": "x86",
+      "artifactName": "detection_based_tracker",
+      "files": [
+        {
+          "src": "/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/jni/DetectionBasedTracker_jni.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/jni/DetectionBasedTracker_jni.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/mac/Desktop/OpenCV-android-sdk/samples/face-detection/build/intermediates/cmake/debug/obj/x86/libdetection_based_tracker.so",
+      "runtimeFiles": [
+        "/Users/mac/Desktop/OpenCV-android-sdk/sdk/native/libs/x86/libopencv_java4.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "2826399150": {
+      "cppCompilerExecutable": "/Users/mac/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
